@@ -23,7 +23,7 @@ I was reading through **Windows Internals Part 1** (great book btw) and stumbled
 
 🔹 A **fiber** is an execution unit which is scheduled by the process itself as opposed to the OS scheduler  
 🔹 They run within the thread which schedules them, but need **no call** to `CreateThread`  
-🔹 My initial thought was *"Well this is interesting, maybe you can also run shellcode with this..."* without triggering common detection patterns and I was right
+🔹 My initial thought was *"Well this is interesting, maybe you can also run shellcode with this...without triggering common detection patterns"* and I was right
 
 > ⚠️ This is by no means new information and there are probably already some other PoCs out there but I thought I'd share mine.
 
